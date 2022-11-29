@@ -1,0 +1,171 @@
+body {
+  background-color: white;
+  background-size: cover;
+  background-image: url(images/background.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 100px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  text-align: left;
+}
+
+.form label {
+  font-size: 30px;
+  color: #747487;
+}
+
+.form input {
+  font-size: 30px;
+  width: 70%;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 218px;
+  padding-right: -31px;
+}
+
+.para {
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+button {
+  color: rgb(234, 234, 245);
+  background-color: #0e71eb;
+  margin-left: 290px;
+  font-size: 15px;
+
+  text-align: center;
+
+  border-radius: 20px;
+}
+
+.sign h2 {
+  font-size: 40px;
+  color: rgb(60, 68, 77);
+}
+
+.sign p {
+  color: #33333a;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.sign a {
+  color: blue;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.content a {
+  font-size: 18px;
+  padding: 0px 4px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input placeholder {
+  text-align: center;
+}
+
+.content a:hover {
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+}
+
+.pl {
+  color: blue;
+}
+
+.footer img {
+  height: 40px;
+  padding: 0px 30px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 30px;
+  padding: 0px 20px;
+}
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: rgb(224, 228, 17);
+  }
+
+  .content {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .sign {
+    margin-left: 40px;
+  }
+  .form {
+    margin: 2px auto;
+    text-align: center;
+  }
+  .para {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+  .form input,
+  label {
+    margin-left: 40px;
+
+    width: 50%;
+  }
+  .form label {
+    color: black;
+  }
+  .content a:hover {
+    background-color: aqua;
+    color: blue;
+  }
+  .content img {
+    width: 100%;
+  }
+  .footer {
+    width: 700px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+  }
+  .footer img {
+    border: none;
+  }
+  button {
+    width: 300px;
+    font-size: 1rem;
+
+    margin: 3px auto;
+    margin-left: 200px;
+  }
+}
